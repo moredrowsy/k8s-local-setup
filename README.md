@@ -43,6 +43,10 @@ curl -sfL https://get.k3s.io | INSTALL_K3S_EXEC="--disable traefik" sh -
 
 ## k3d
 
+We can install multiple `k3s` clusters using `k3d`. Why?
+Differrent ingress implemention have conflicts with each other.
+We can install differrent ingress per cluster to test out each of them.
+
 ### Install k3d
 
 ```shell
