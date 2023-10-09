@@ -57,9 +57,9 @@ curl -s https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
 
 Refer to the subfolders for each:
 
-- traefik
-- ingress-nginx
 - istio
+- nginx (by kubernetes.github.io)
+- traefik
 
 NOTE: Remember to stop other clusters when creating/using one to prevent
 conflicts.

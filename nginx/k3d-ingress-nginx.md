@@ -13,7 +13,7 @@ curl -s https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
 Install k3s cluster
 
 ```shell
-k3d cluster create ingress-nginx --api-port 6550 --agents 1 --k3s-arg "--disable=traefik@server:0" --wait
+k3d cluster create nginx --api-port 6550 --agents 1 --k3s-arg "--disable=traefik@server:0" --wait
 ```
 
 ## Install ingress-nginx
